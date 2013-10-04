@@ -8,7 +8,7 @@ class shape{
 	}
 	
 	public int volume(){
-		return a*b*c;
+		return length*breadth*height;
 	}
 }
 	
@@ -24,6 +24,6 @@ class cube{
 		int f = x.nextInt();
 		
 		shape cube = new shape(c,d,f);
-		System.out.printl(cube.volume());
+		System.out.println(cube.volume());
 	}
 }
